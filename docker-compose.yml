@@ -1,0 +1,11 @@
+version: "2"
+services:
+  watch:
+    build: .
+    working_dir: /src
+    command: yarn test
+    volumes:
+      - .:/src
+      - yarn-cache:/root/.cache/yarn
+volumes:
+  yarn-cache: {}
