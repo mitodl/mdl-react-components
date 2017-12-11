@@ -1,5 +1,5 @@
 {
-  "name": "mdl-react-components",
+  "name": "@mitodl/mdl-react-components",
   "version": "0.0.0",
   "description": "React component implementations for material library",
   "scripts": {
