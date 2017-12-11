@@ -1,9 +1,8 @@
 node_modules
 .idea
 *~
-lib/
 npm-debug.log
+src/
 coverage
 .nyc_output
 yarn-error.log
-*.tgz
