@@ -19,8 +19,13 @@ type DialogProps = {
   hideDialog: () => void
 }
 
+type DialogState = {
+  style: ?Object
+}
+
 export default class Dialog extends React.Component<*, *> {
   props: DialogProps
+  state: DialogState
 
   dialog = null
   dialogRoot = null
@@ -80,7 +85,7 @@ export default class Dialog extends React.Component<*, *> {
   }
 
   showMdc() {
-    this.setState(() => ({}))
+    this.setState({ style: null })
     if (this.dialog) {
       this.dialog.show()
     }

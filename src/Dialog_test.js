@@ -22,6 +22,7 @@ test("<Dialog/> should render with passed props", t => {
     open ? "should" : "should not"
   } open on mount when open=${open}`, t => {
     const wrapper = renderDialog({ open })
+    t.deepEqual(wrapper.state("style"), open ? null : { display: "none" })
     t.is(wrapper.instance().dialog.open, open)
   })
 })
@@ -31,9 +32,11 @@ test("<Dialog/> should render with passed props", t => {
   } when open prop changes to ${open}`, async t => {
     const wrapper = renderDialog({ open: !open })
     await wait(5)
+    t.deepEqual(wrapper.state("style"), !open ? null : { display: "none" })
     t.is(wrapper.instance().dialog.open, !open)
     wrapper.setProps({ open })
     await wait(5)
+    t.is(wrapper.state("style"), null)
     t.is(wrapper.instance().dialog.open, open)
   })
 })
