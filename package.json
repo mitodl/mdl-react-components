@@ -1,6 +1,6 @@
 {
   "name": "@mitodl/mdl-react-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React component implementations for material library",
   "scripts": {
     "test": "./scripts/test/js_test.sh",
