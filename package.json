@@ -1,6 +1,6 @@
 {
   "name": "@mitodl/mdl-react-components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React component implementations for material library",
   "scripts": {
     "test": "./scripts/test/js_test.sh",
@@ -36,6 +36,7 @@
   "devDependencies": {
     "@material/button": "^0.26.0",
     "@material/dialog": "^0.26.0",
+    "@material/radio": "^0.30.0",
     "ava": "^0.24.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "7.2.3",
@@ -70,11 +71,13 @@
     "react-dom": "^15.6.0",
     "react-test-renderer": "^15.6.0",
     "rollup": "^0.52.1",
-    "rollup-plugin-babel": "^3.0.2"
+    "rollup-plugin-babel": "^3.0.2",
+    "sinon": "^4.3.0"
   },
   "peerDependencies": {
     "@material/button": "^0.26.0",
     "@material/dialog": "^0.26.0",
+    "@material/radio": "^0.30.0",
     "react": "^15.6.0",
     "react-dom": "^15.6.0"
   },

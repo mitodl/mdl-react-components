@@ -26,6 +26,7 @@ const sources = [
   'index.js',
   'Button.js',
   'Dialog.js',
+  'Radio.js',
 ]
 
 const config = sources.map((source) => ({
