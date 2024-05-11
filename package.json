@@ -63,7 +63,7 @@
     "eslint-plugin-react": "7.34.1",
     "flow-bin": "0.236.0",
     "flow-typed": "2.6.2",
-    "jsdom": "11.5.1",
+    "jsdom": "16.5.0",
     "jsdom-global": "3.0.2",
     "nyc": "11.9.0",
     "prettier-eslint-cli": "4.7.1",
