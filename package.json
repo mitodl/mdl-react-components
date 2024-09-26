@@ -70,7 +70,7 @@
     "react": "15.7.0",
     "react-dom": "15.7.0",
     "react-test-renderer": "15.7.0",
-    "rollup": "0.68.2",
+    "rollup": "2.79.2",
     "rollup-plugin-babel": "3.0.7",
     "sinon": "4.5.0"
   },
