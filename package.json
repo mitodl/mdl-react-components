@@ -37,7 +37,7 @@
     "@material/button": "0.44.1",
     "@material/dialog": "0.44.1",
     "@material/radio": "0.44.1",
-    "ava": "0.25.0",
+    "ava": "6.4.1",
     "babel-core": "6.26.3",
     "babel-eslint": "7.2.3",
     "babel-plugin-external-helpers": "6.22.0",
